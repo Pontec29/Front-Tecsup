@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container{
+    width: 650px;
+    /*border: 1px solid red;*/
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 14px; 
+}
+
+.photo{
+    width: 350px;
+
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px 0 0 14px;
+}
+
+.content{
+    width: 300px;
+    border-radius: 0 14px 14px 0;
+    padding: 14px 28px 14px 28px;
+}
+
+.content h3{
+    
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: c;
+}
+
+.content h1{
+    font-family: "Fraunces"; 
+    font-weight: 700;
+    font-size: 32px;
+    color: hsl(212, 21%, 14%);
+}
+
+.content p{
+    font-weight: 500;
+    line-height: 1.5;
+    color: hsl(228, 12%, 48%);
+}
+
+.content div{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.content span{
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.content .before{
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.content button{
+    border: 0;
+    font-family: "Montserrat";
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    
+    padding: 14px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+    cursor: pointer;
+    border-radius: 14px;
+    margin-top: 20px;
+}
